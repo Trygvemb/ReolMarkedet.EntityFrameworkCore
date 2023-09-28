@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RM.Domain
-build_property.ProjectDir = \\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\
+build_property.ProjectDir = /Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/

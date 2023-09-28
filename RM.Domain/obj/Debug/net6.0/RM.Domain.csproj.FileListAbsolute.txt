@@ -1,23 +1,35 @@
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\bin\Debug\net6.0\RM.Domain.deps.json
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\bin\Debug\net6.0\RM.Domain.dll
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\bin\Debug\net6.0\RM.Domain.pdb
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.csproj.AssemblyReference.cache
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.AssemblyInfoInputs.cache
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.AssemblyInfo.cs
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.csproj.CoreCompileInputs.cache
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.dll
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\refint\RM.Domain.dll
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\RM.Domain.pdb
-C:\Users\trygvebechsgaard\source\repos\RM.Domain\obj\Debug\net6.0\ref\RM.Domain.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\bin\Debug\net6.0\RM.Domain.deps.json
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\bin\Debug\net6.0\RM.Domain.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\bin\Debug\net6.0\RM.Domain.pdb
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\RM.Domain.GeneratedMSBuildEditorConfig.editorconfig
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\RM.Domain.AssemblyInfoInputs.cache
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\RM.Domain.AssemblyInfo.cs
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\RM.Domain.csproj.CoreCompileInputs.cache
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\RM.Domain.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\refint\RM.Domain.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\RM.Domain.pdb
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.Domain\obj\Debug\net6.0\ref\RM.Domain.dll
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/bin/Debug/net6.0/RM.Domain.deps.json
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/bin/Debug/net6.0/RM.Domain.dll
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/bin/Debug/net6.0/RM.Domain.pdb
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.csproj.AssemblyReference.cache
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.AssemblyInfoInputs.cache
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.AssemblyInfo.cs
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.csproj.CoreCompileInputs.cache
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.dll
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/refint/RM.Domain.dll
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/RM.Domain.pdb
+C:/Users/trygvebechsgaard/source/repos/RM.Domain/obj/Debug/net6.0/ref/RM.Domain.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/bin/Debug/net6.0/RM.Domain.deps.json
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/bin/Debug/net6.0/RM.Domain.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/bin/Debug/net6.0/RM.Domain.pdb
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.AssemblyInfoInputs.cache
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.AssemblyInfo.cs
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.csproj.CoreCompileInputs.cache
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/refint/RM.Domain.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.pdb
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/ref/RM.Domain.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/bin/Debug/net6.0/RM.Domain.deps.json
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/bin/Debug/net6.0/RM.Domain.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/bin/Debug/net6.0/RM.Domain.pdb
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.csproj.AssemblyReference.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.AssemblyInfoInputs.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.AssemblyInfo.cs
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.csproj.CoreCompileInputs.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/refint/RM.Domain.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/RM.Domain.pdb
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/Debug/net6.0/ref/RM.Domain.dll

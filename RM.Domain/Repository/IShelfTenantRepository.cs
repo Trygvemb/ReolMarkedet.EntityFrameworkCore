@@ -9,5 +9,6 @@ namespace RM.Domain.Repository
 {
     public interface IShelfTenantRepository : IGenericRepository<ShelfTenant>
     {
+        IEnumerable<ShelfTenant> GetShelfTenantWithBarcodes();
     }
 }

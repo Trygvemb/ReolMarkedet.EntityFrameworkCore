@@ -14,5 +14,6 @@ namespace RM.Domain.Repository
         IPayoutRepository Payout { get; }
 
         int Save();
+
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rtGSzmmUogyqh6ETnp7k4sPKprD5E4Sps27Q86ExvU5pJ0gGg+4Usq4yV9PDuLP2EXPI8euhYaUXUFNDXrp8WA==",
+  "dgSpecHash": "NEhvj51gBaf73fEEYHMdAKag5OgA8gcjWSaUHxkiuZ3VaQnYdzWc+AjEg9JpvrHEp0KyL7YSU1PTTgHTi6YPqw==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\RM.Domain.csproj",
+  "projectFilePath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/RM.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

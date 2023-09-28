@@ -1,34 +1,51 @@
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.deps.json
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.runtimeconfig.json
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.dll
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.pdb
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\bin\Debug\net6.0\RM.Domain.dll
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\bin\Debug\net6.0\RM.Domain.pdb
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.csproj.AssemblyReference.cache
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.AssemblyInfoInputs.cache
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.AssemblyInfo.cs
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.csproj.CopyComplete
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.dll
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\refint\RM.DataAccess.dll
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.pdb
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.genruntimeconfig.cache
-C:\Users\trygvebechsgaard\source\repos\RM.DataAccess\obj\Debug\net6.0\ref\RM.DataAccess.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.deps.json
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.runtimeconfig.json
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\bin\Debug\net6.0\RM.DataAccess.pdb
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\bin\Debug\net6.0\RM.Domain.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\bin\Debug\net6.0\RM.Domain.pdb
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.csproj.AssemblyReference.cache
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.AssemblyInfoInputs.cache
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.AssemblyInfo.cs
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.csproj.CoreCompileInputs.cache
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.csproj.CopyComplete
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\refint\RM.DataAccess.dll
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.pdb
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\RM.DataAccess.genruntimeconfig.cache
-\\Mac\Home\Desktop\dev\ReolMarkedet.EntityFrameworkCore\RM.DataAccess\obj\Debug\net6.0\ref\RM.DataAccess.dll
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.deps.json
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.runtimeconfig.json
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.dll
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.pdb
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/bin/Debug/net6.0/RM.Domain.dll
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/bin/Debug/net6.0/RM.Domain.pdb
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.AssemblyReference.cache
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.AssemblyInfoInputs.cache
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.AssemblyInfo.cs
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.CoreCompileInputs.cache
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.CopyComplete
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.dll
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/refint/RM.DataAccess.dll
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.pdb
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.genruntimeconfig.cache
+C:/Users/trygvebechsgaard/source/repos/RM.DataAccess/obj/Debug/net6.0/ref/RM.DataAccess.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.deps.json
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.runtimeconfig.json
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.pdb
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.Domain.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.Domain.pdb
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.AssemblyReference.cache
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.AssemblyInfoInputs.cache
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.AssemblyInfo.cs
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.CoreCompileInputs.cache
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.CopyComplete
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/refint/RM.DataAccess.dll
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.pdb
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.genruntimeconfig.cache
+//Mac/Home/Desktop/dev/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/ref/RM.DataAccess.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.deps.json
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.runtimeconfig.json
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.DataAccess.pdb
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.Domain.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/bin/Debug/net6.0/RM.Domain.pdb
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.AssemblyReference.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.AssemblyInfoInputs.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.AssemblyInfo.cs
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.CoreCompileInputs.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.csproj.CopyComplete
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/refint/RM.DataAccess.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.pdb
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/RM.DataAccess.genruntimeconfig.cache
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/Debug/net6.0/ref/RM.DataAccess.dll

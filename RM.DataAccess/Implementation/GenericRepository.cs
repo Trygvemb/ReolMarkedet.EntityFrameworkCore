@@ -11,6 +11,7 @@ namespace RM.DataAccess.Implementation
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
         private readonly RMManagementDbContext _context;
+
         public GenericRepository(RMManagementDbContext context)
         {
             _context = context;

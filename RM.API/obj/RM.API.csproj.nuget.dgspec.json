@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.API\\RM.API.csproj": {}
+    "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/RM.API.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.API\\RM.API.csproj": {
+    "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/RM.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.API\\RM.API.csproj",
+        "projectUniqueName": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/RM.API.csproj",
         "projectName": "RM.API",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.API\\RM.API.csproj",
-        "packagesPath": "C:\\Users\\trygvebechsgaard\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.API\\obj\\",
+        "projectPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/RM.API.csproj",
+        "packagesPath": "/Users/trygvebechsgaard/.nuget/packages/",
+        "outputPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trygvebechsgaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/trygvebechsgaard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.308/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.DataAccess\\RM.DataAccess.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.DataAccess\\RM.DataAccess.csproj"
+              "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/RM.DataAccess.csproj": {
+                "projectPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/RM.DataAccess.csproj"
               }
             }
           }
@@ -84,36 +84,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.DataAccess\\RM.DataAccess.csproj": {
+    "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/RM.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.DataAccess\\RM.DataAccess.csproj",
+        "projectUniqueName": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/RM.DataAccess.csproj",
         "projectName": "RM.DataAccess",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.DataAccess\\RM.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\trygvebechsgaard\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.DataAccess\\obj\\",
+        "projectPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/RM.DataAccess.csproj",
+        "packagesPath": "/Users/trygvebechsgaard/.nuget/packages/",
+        "outputPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trygvebechsgaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/trygvebechsgaard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\RM.Domain.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\RM.Domain.csproj"
+              "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/RM.Domain.csproj": {
+                "projectPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/RM.Domain.csproj"
               }
             }
           }
@@ -159,28 +158,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\RM.Domain.csproj": {
+    "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/RM.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\RM.Domain.csproj",
+        "projectUniqueName": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/RM.Domain.csproj",
         "projectName": "RM.Domain",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\RM.Domain.csproj",
-        "packagesPath": "C:\\Users\\trygvebechsgaard\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\dev\\ReolMarkedet.EntityFrameworkCore\\RM.Domain\\obj\\",
+        "projectPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/RM.Domain.csproj",
+        "packagesPath": "/Users/trygvebechsgaard/.nuget/packages/",
+        "outputPath": "/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\trygvebechsgaard\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/trygvebechsgaard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -214,7 +212,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
         }
       }
     }
