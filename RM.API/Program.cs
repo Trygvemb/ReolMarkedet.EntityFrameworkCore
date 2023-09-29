@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using RM.DataAccess.Context;
 using RM.DataAccess.Implementation;
@@ -16,7 +17,11 @@ builder.Services.AddSwaggerGen();
 // Add Entiti framework
 builder.Services.AddDbContext<RMManagementDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MyDBConnection")));
 
+//
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+
+// adds json option to ignore cycles
+builder.Services.AddMvc().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
 

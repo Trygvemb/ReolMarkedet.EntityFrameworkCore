@@ -14,16 +14,24 @@ namespace RM.API.Controllers
         {
             _unitOfWork = unitOfWork;
         }
+
         [HttpGet]
         public ActionResult Get()
         {
             var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetAll();
             return Ok(ShelfTenantFromRepo);
         }
-        public ActionResult GetById(int id)
+
+        [HttpGet("barcode")]
+        public ActionResult GetWithBarcodes()
         {
-            var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetById(id);
+            var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetShelfTenantWithBarcodes();
             return Ok(ShelfTenantFromRepo);
         }
+        //public ActionResult GetById(int id)
+        //{
+        //    var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetById(id);
+        //    return Ok(ShelfTenantFromRepo);
+        //}
     }
 }
