@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RM.API.Dto;
+using RM.Domain.Entities;
 using RM.Domain.Repository;
 
 namespace RM.API.Controllers
@@ -10,33 +12,50 @@ namespace RM.API.Controllers
     public class ShelfTenantController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-        public ShelfTenantController(IUnitOfWork unitOfWork)
+        public ShelfTenantController(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
-        }
-
+            _mapper = mapper;
+        }   
+        // Getting Shelftenat
         [HttpGet]
         public ActionResult Get()
         {
-            var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetAll();
+            var ShelfTenantFromRepo = _mapper.Map<List<ShelfTenantDto>>(_unitOfWork.ShelfTenant.GetAll());
             return Ok(ShelfTenantFromRepo);
         }
-
         [HttpGet("barcode")]
         public ActionResult GetWithBarcodes()
         {
-            var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetShelfTenantWithBarcodes();
+            var ShelfTenantFromRepo = _mapper.Map<ShelfTenantDto>(_unitOfWork.ShelfTenant.GetShelfTenantWithBarcodes());
+
             return Ok(ShelfTenantFromRepo);
+
+
+        }
+        [HttpGet("ShelfTenantId")]
+        public IActionResult GetById(int id)
+        {
+
+            var shelfTenantFromRepo = _mapper.Map<ShelfTenantDto>(_unitOfWork.ShelfTenant.GetById(id));
+
+            if (shelfTenantFromRepo == null)
+                return NotFound();
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            return Ok(shelfTenantFromRepo);
         }
 
+        // Adding new Shelftenant
         [HttpPost]
         public IActionResult Add([FromBody] ShelfTenantDto shelfTenantCreate)
         {
             if(shelfTenantCreate == null)
-            {
                 return BadRequest(ModelState);
-            }
 
             var shelfTenant = _unitOfWork.ShelfTenant.GetAll()
                 .Where(s => s.FirstName.Trim().ToUpper() ==
@@ -51,12 +70,13 @@ namespace RM.API.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
+            var shelfTenantMap = _mapper.Map<ShelfTenant>(shelfTenantCreate);
 
+            _unitOfWork.ShelfTenant.Add(shelfTenantMap);
+            _unitOfWork.Save();
+
+            return Ok("ShelTenant created");
         }
-        //public ActionResult GetById(int id)
-        //{
-        //    var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetById(id);
-        //    return Ok(ShelfTenantFromRepo);
-        //}
+
     }
 }

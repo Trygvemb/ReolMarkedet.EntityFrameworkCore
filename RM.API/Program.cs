@@ -13,17 +13,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// adding AutoMapper to the build
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 // Add Entiti framework
 builder.Services.AddDbContext<RMManagementDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MyDBConnection")));
 
-//
+// adding UnitOfWork to the build
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 
 // adds json option to ignore cycles
 builder.Services.AddMvc().AddJsonOptions(x => x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles);
 
 var app = builder.Build();
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

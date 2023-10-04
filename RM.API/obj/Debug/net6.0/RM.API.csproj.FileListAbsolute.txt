@@ -271,3 +271,5 @@ C:/Users/trygvebechsgaard/source/repos/RM.API/obj/Debug/net6.0/ref/RM.API.dll
 /Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/obj/Debug/net6.0/RM.API.pdb
 /Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/obj/Debug/net6.0/RM.API.genruntimeconfig.cache
 /Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/obj/Debug/net6.0/ref/RM.API.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/bin/Debug/net6.0/AutoMapper.dll
+/Users/trygvebechsgaard/Desktop/git/Git TrygveMac/ReolMarkedet.EntityFrameworkCore/RM.API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
