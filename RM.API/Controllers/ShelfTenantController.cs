@@ -18,8 +18,37 @@ namespace RM.API.Controllers
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-        }   
-        // Getting Shelftenat
+        }
+
+        // (CREATE) Adding new Shelftenant
+        [HttpPost]
+        public IActionResult Add([FromBody] ShelfTenantDto shelfTenantCreate)
+        {
+            if (shelfTenantCreate == null)
+                return BadRequest(ModelState);
+
+            var shelfTenant = _unitOfWork.ShelfTenant.GetAll()
+                .Where(s => s.FirstName.Trim().ToUpper() ==
+                shelfTenantCreate.FirstName.TrimEnd().ToUpper()).FirstOrDefault();
+
+            if (shelfTenant != null)
+            {
+                ModelState.AddModelError("", "ShelfTenant already exists");
+                return StatusCode(422, ModelState);
+            }
+
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var shelfTenantMap = _mapper.Map<ShelfTenant>(shelfTenantCreate);
+
+            _unitOfWork.ShelfTenant.Add(shelfTenantMap);
+            _unitOfWork.Save();
+
+            return Ok("ShelTenant created");
+        }
+
+        // (READ) Getting Shelftenat
         [HttpGet]
         public ActionResult Get()
         {
@@ -46,36 +75,7 @@ namespace RM.API.Controllers
             return Ok(ShelfTenantFromRepo);
         }
 
-        // Adding new Shelftenant
-        [HttpPost]
-        public IActionResult Add([FromBody] ShelfTenantDto shelfTenantCreate)
-        {
-            if(shelfTenantCreate == null)
-                return BadRequest(ModelState);
-
-            var shelfTenant = _unitOfWork.ShelfTenant.GetAll()
-                .Where(s => s.FirstName.Trim().ToUpper() ==
-                shelfTenantCreate.FirstName.TrimEnd().ToUpper()).FirstOrDefault();
-
-            if(shelfTenant != null)
-            {
-                ModelState.AddModelError("", "ShelfTenant already exists");
-                return StatusCode(422, ModelState);
-            }
-
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            var shelfTenantMap = _mapper.Map<ShelfTenant>(shelfTenantCreate);
-
-            _unitOfWork.ShelfTenant.Add(shelfTenantMap);
-            _unitOfWork.Save();
-
-            return Ok("ShelTenant created");
-        }
-
-
-        // Updating existing ShelfTenANT
+        // (UPDATE) Updating existing ShelfTenANT
         [HttpPut("{id}")]
         public IActionResult Update(int id, [FromBody] ShelfTenantDto updatedShelfTenantDto)
         {
@@ -107,7 +107,7 @@ namespace RM.API.Controllers
             }
         }
 
-        // Deleting existing ShelfTenant
+        // (DELETE) Deleting existing ShelfTenant
         [HttpDelete("{id}")]
         public IActionResult Remove(int id)
         {
