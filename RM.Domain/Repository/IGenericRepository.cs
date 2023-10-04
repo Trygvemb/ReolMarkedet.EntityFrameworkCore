@@ -16,6 +16,5 @@ namespace RM.Domain.Repository
         void AddRange(IEnumerable<T> entities);
         void Remove(T entitie);
         void RemoveRange(IEnumerable<T> enities);
-        
     }
 }

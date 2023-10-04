@@ -1,30 +1,18 @@
 ﻿<Properties StartupConfiguration="{DB1C76CF-6D3A-4B5F-B6EA-45BE0C8392D9}|Default">
   <MonoDevelop.Ide.ItemProperties.RM.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../RM.DataAccess/Implementation/ShelfTenantRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ShelfTenantController.cs">
     <Files>
-      <File FileName="Controllers/ShelfTenantController.cs" />
-      <File FileName="../RM.Domain/Repository/IGenericRepository.cs" />
-      <File FileName="../RM.DataAccess/Implementation/UnitOfWork.cs" />
-      <File FileName="../RM.Domain/Repository/IUnitOfWork.cs" />
-      <File FileName="../RM.Domain/Repository/IShelfTenantRepository.cs" />
-      <File FileName="../RM.DataAccess/Implementation/ShelfTenantRepository.cs" Line="8" Column="19" />
-      <File FileName="../RM.DataAccess/Implementation/GenericRepository.cs" />
+      <File FileName="Controllers/SalesController.cs" Line="39" Column="1" />
+      <File FileName="Controllers/ShelfTenantController.cs" Line="6" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RM.API">
-            <Node name="RM.API">
+            <Node name="NuGet.Config files" expanded="True" />
+            <Node name="RM.API" expanded="True">
               <Node name="Controllers" expanded="True" />
-            </Node>
-            <Node name="RM.DataAccess" expanded="True">
-              <Node name="Implementation" expanded="True">
-                <Node name="ShelfTenantRepository.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="RM.Domain" expanded="True">
-              <Node name="Repository" expanded="True" />
             </Node>
           </Node>
         </State>

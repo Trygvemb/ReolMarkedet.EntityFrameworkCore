@@ -18,6 +18,7 @@ namespace RM.DataAccess.Implementation
         {
             _context = context;
         }
+
         public IEnumerable<ShelfTenant> GetShelfTenantWithBarcodes()
         {
             var ShelfTenantWithBarcodes = _context.ShelfTenants.Include(u => u.Barcodes).ToList();
