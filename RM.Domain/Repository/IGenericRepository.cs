@@ -12,9 +12,11 @@ namespace RM.Domain.Repository
         T GetById(int id);
         IEnumerable<T> GetAll();
         IEnumerable<T> Find(Expression<Func<T, bool>> prediction);
-        void Add(T entitie);
+        void Add(T entity);
         void AddRange(IEnumerable<T> entities);
-        void Remove(T entitie);
+        void Update(T entity);
+        void Remove(T entity);
         void RemoveRange(IEnumerable<T> enities);
+        
     }
 }

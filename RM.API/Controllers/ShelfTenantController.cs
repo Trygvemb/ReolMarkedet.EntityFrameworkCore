@@ -26,21 +26,10 @@ namespace RM.API.Controllers
             var ShelfTenantFromRepo = _mapper.Map<List<ShelfTenantDto>>(_unitOfWork.ShelfTenant.GetAll());
             return Ok(ShelfTenantFromRepo);
         }
-        [HttpGet("barcode")]
-        public ActionResult GetWithBarcodes()
-        {
-            var ShelfTenantFromRepo = _mapper.Map<ShelfTenantDto>(_unitOfWork.ShelfTenant.GetShelfTenantWithBarcodes());
-
-            return Ok(ShelfTenantFromRepo);
-
-
-        }
-        [HttpGet("ShelfTenantId")]
+        [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-
             var shelfTenantFromRepo = _mapper.Map<ShelfTenantDto>(_unitOfWork.ShelfTenant.GetById(id));
-
             if (shelfTenantFromRepo == null)
                 return NotFound();
 
@@ -48,6 +37,13 @@ namespace RM.API.Controllers
                 return BadRequest(ModelState);
 
             return Ok(shelfTenantFromRepo);
+        }
+        [HttpGet("barcode")]
+        public ActionResult GetWithBarcodes()
+        {
+            var ShelfTenantFromRepo = _unitOfWork.ShelfTenant.GetShelfTenantWithBarcodes();
+
+            return Ok(ShelfTenantFromRepo);
         }
 
         // Adding new Shelftenant
@@ -77,6 +73,63 @@ namespace RM.API.Controllers
 
             return Ok("ShelTenant created");
         }
+
+
+        // Updating existing ShelfTenANT
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody] ShelfTenantDto updatedShelfTenantDto)
+        {
+            if (updatedShelfTenantDto == null)
+                return BadRequest("ShelfTenant data is missing.");
+
+            if(id != updatedShelfTenantDto.Id)
+                return BadRequest("Invalid ShelfTenant ID.");
+
+            var existingShelfTenant = _unitOfWork.ShelfTenant.GetById(id);
+            if (existingShelfTenant == null)
+                return NotFound("ShelfTenant not found.");
+
+            _mapper.Map(updatedShelfTenantDto, existingShelfTenant);
+
+            try
+            {
+                // Update the entity in the repository
+                _unitOfWork.ShelfTenant.Update(existingShelfTenant);
+                _unitOfWork.Save();
+
+                // Return a 204 No Content response to indicate success
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                // Handle any exceptions, log them, and return an error response
+                return StatusCode(500, "An error occurred while updating the ShelfTenant.");
+            }
+        }
+
+        // Deleting existing ShelfTenant
+        [HttpDelete("{id}")]
+        public IActionResult Remove(int id)
+        {
+            try
+            {
+                var existingShelfTenant = _unitOfWork.ShelfTenant.GetById(id);
+                if (existingShelfTenant == null)
+                    return NotFound("ShelfTenant not found");
+
+                _unitOfWork.ShelfTenant.Remove(existingShelfTenant);
+                _unitOfWork.Save();
+
+                return Ok("ShelfTenant was deleted");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An error accurred while deleting ShelfTenant");
+            }
+        }
+
+        
+
 
     }
 }

@@ -16,9 +16,9 @@ namespace RM.DataAccess.Implementation
         {
             _context = context;
         }
-        public void Add(T entitie)
+        public void Add(T entity)
         {
-            _context.Set<T>().Add(entitie);
+            _context.Set<T>().Add(entity);
         }
 
         public void AddRange(IEnumerable<T> entities)
@@ -41,14 +41,21 @@ namespace RM.DataAccess.Implementation
             return _context.Set<T>().Find(id);
         }
 
-        public void Remove(T entitie)
+        public void Update(T entity)
         {
-            _context.Set<T>().Remove(entitie);
+            _context.Update(entity);
+        }
+
+        public void Remove(T entity)
+        {
+            _context.Set<T>().Remove(entity);
         }
 
         public void RemoveRange(IEnumerable<T> enities)
         {
             _context.Set<T>().RemoveRange(enities);
         }
+
+        
     }
 }
