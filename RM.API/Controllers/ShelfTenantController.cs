@@ -129,7 +129,7 @@ namespace RM.API.Controllers
         }
 
         
-
+        // Implementation of adding Barcode and Payouts to ShelfTenant goes here
 
     }
 }
