@@ -41,11 +41,16 @@ namespace RM.API.Controllers
                 return BadRequest(ModelState);
 
             var shelfTenantMap = _mapper.Map<ShelfTenant>(shelfTenantCreate);
-
-            _unitOfWork.ShelfTenant.Add(shelfTenantMap);
-            _unitOfWork.Save();
-
-            return Ok("ShelTenant created");
+            try
+            {
+                _unitOfWork.ShelfTenant.Add(shelfTenantMap);
+                _unitOfWork.Save();
+                return Ok("ShelTenant created");
+            }
+            catch(Exception ex)
+            {
+                return StatusCode(500, "An error occurred while Saving.\n\n" + ex.InnerException.ToString());
+            }
         }
 
         // (READ) Getting Shelftenat
@@ -60,7 +65,7 @@ namespace RM.API.Controllers
         {
             var shelfTenantFromRepo = _mapper.Map<ShelfTenantDto>(_unitOfWork.ShelfTenant.GetById(id));
             if (shelfTenantFromRepo == null)
-                return NotFound();
+                return NotFound("ShelfTenant not found.");
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -96,14 +101,11 @@ namespace RM.API.Controllers
                 // Update the entity in the repository
                 _unitOfWork.ShelfTenant.Update(existingShelfTenant);
                 _unitOfWork.Save();
-
-                // Return a 204 No Content response to indicate success
                 return NoContent();
             }
             catch (Exception ex)
             {
-                // Handle any exceptions, log them, and return an error response
-                return StatusCode(500, "An error occurred while updating the ShelfTenant.");
+                return StatusCode(500, "An error occurred while Saving.\n\n" + ex.InnerException.ToString());
             }
         }
 
@@ -111,20 +113,18 @@ namespace RM.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Remove(int id)
         {
+            var existingShelfTenant = _unitOfWork.ShelfTenant.GetById(id);
+            if (existingShelfTenant == null)
+                return NotFound("ShelfTenant not found");
             try
             {
-                var existingShelfTenant = _unitOfWork.ShelfTenant.GetById(id);
-                if (existingShelfTenant == null)
-                    return NotFound("ShelfTenant not found");
-
                 _unitOfWork.ShelfTenant.Remove(existingShelfTenant);
                 _unitOfWork.Save();
-
                 return Ok("ShelfTenant was deleted");
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "An error accurred while deleting ShelfTenant");
+                return StatusCode(500, "An error accurred while deleting ShelfTenant\n\n" + ex.InnerException.ToString());
             }
         }
 

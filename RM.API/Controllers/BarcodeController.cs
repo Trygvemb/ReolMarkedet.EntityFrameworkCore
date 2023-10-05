@@ -47,19 +47,23 @@ namespace RM.API.Controllers
         [HttpPost]
         public IActionResult Add([FromBody] BarcodeDto newBarcodeDto)
         {
-                
+
             if (newBarcodeDto == null)
                 return BadRequest("Barcode data is missing.");
 
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-
-            var newBarcode = _mapper.Map<Barcode>(newBarcodeDto);
-            _unitOfWork.Barcode.Add(newBarcode);
-            _unitOfWork.Save();
-
-            return Ok("Barcode created");
-                
+            try
+            {
+                var newBarcode = _mapper.Map<Barcode>(newBarcodeDto);
+                _unitOfWork.Barcode.Add(newBarcode);
+                _unitOfWork.Save();
+                return Ok("Barcode created");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An error occurred while Saving.\n\n" + ex.InnerException.ToString());
+            }
         }
 
         // (UPDATE) Updating existing Barcode
@@ -89,7 +93,7 @@ namespace RM.API.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "An error occurred while updating the ShelfTenant.\n\n" + ex.InnerException.ToString());
+                return StatusCode(500, "An error occurred while Saving.\n\n" + ex.InnerException.ToString());
             }
         }
 
@@ -101,10 +105,17 @@ namespace RM.API.Controllers
             if (barcode == null)
                 return NotFound("Barcode not found.");
 
-            _unitOfWork.Barcode.Remove(barcode);
-            _unitOfWork.Save();
-            return NoContent();
+            try
+            {
+                _unitOfWork.Barcode.Remove(barcode);
+                _unitOfWork.Save();
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "An error occurred while Saving.\n\n" + ex.InnerException.ToString());
+            }
+        }
 
-        }
-        }
-    }
+
+    }   }
