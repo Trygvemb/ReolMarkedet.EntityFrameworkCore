@@ -50,7 +50,7 @@ namespace RM.API.Controllers
 
         // (READ) Getting Shelftenat
         [HttpGet]
-        public ActionResult Get()
+        public ActionResult GetAll()
         {
             var ShelfTenantFromRepo = _mapper.Map<List<ShelfTenantDto>>(_unitOfWork.ShelfTenant.GetAll());
             return Ok(ShelfTenantFromRepo);
